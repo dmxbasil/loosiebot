@@ -19,7 +19,8 @@ Check me on [TELEGRAM](https://t.me/loosiebot)
 
 <details>
 <summary># CREDITS </summary>
-  * ![Mr.Dark_Prince](https://t.me/Mr_D_P)
+
+  * [![Mr.Dark_Prince](https://t.me/Mr_D_P)]
 
   * ![Heaven_Hater](https://t.me/Chegue666)
   
