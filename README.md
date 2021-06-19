@@ -1,5 +1,4 @@
 ## <b>ലൂസി ബോട്ട്</b>
-  <p align="center"><img src=" https://telegra.ph/file/7663d0d9eb0a9eb5f17fc.jpg" width ="220" height="39.50"/></a></p>
  
 THIS IS GROUP MANAGER BOT.
 # DEPLOYMENT
