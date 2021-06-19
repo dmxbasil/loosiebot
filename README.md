@@ -1,10 +1,10 @@
 ## <b>ലൂസി ബോട്ട്</b>
-  <p align="center"><a> <img = " https://telegra.ph/file/7663d0d9eb0a9eb5f17fc.jpg" width ="220" height="39.50"/></a></p>
+  <p align="center"><img src=" https://telegra.ph/file/7663d0d9eb0a9eb5f17fc.jpg" width ="220" height="39.50"/></a></p>
  
 THIS IS GROUP MANAGER BOT.
 # DEPLOYMENT
 ### CLICK BELOW IMAGE TO DEPLOY
-[![Deploy](https://telegra.ph/file/d224ccdb6051d7c42d435.jpg)](https://heroku.com/deploy?template=https://github.com/sakhaavvaavaj93/loosiebot.git)
+[![Deploy](https://telegra.ph/file/381a32c4707998088f234.jpg)](https://heroku.com/deploy?template=https://github.com/sakhaavvaavaj93/loosiebot.git)
 
 ## DEPLOY HERE 
 
