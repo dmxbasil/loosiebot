@@ -73,8 +73,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-
-PM_START_TEXT = """Hello, My name is ۞ᏝᎧᎧᏚᎥᏋ۞
+PM_START_IMG = "https://telegra.ph/file/9429862a0443988623bd2.jpg" 
+PM_START_TEXT = """Hello, My name is 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
@@ -85,7 +85,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ۞ᏝᎧᎧᏚᎥᏋ۞ to YOUR GROUP ➕️", url="t.me/loos?startgroup=true"),
+            text="➕️ ADD ۞ᏝᎧᎧᏚᎥᏋ۞ to YOUR GROUP ➕️", url="t.me/stenZleMaria_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -93,13 +93,13 @@ buttons = [
     ],
    [
         InlineKeyboardButton(
-            text="🎵 MUSIC GROUP 🎧", url="http://t.me/KKK_kovila")
+            text="🎵 MUSIC GROUP 🎧", url="http://t.me/KK_LIFE_OF_RYTHEMofficial")
    ],
    [
         InlineKeyboardButton(
-            text="✨MY BF✨", url="http://t.me/stenZleMaria_bot"),
+            text="✨MY BESTIE✨", url="http://t.me/NAZRIYANAZEEMBOT"),
         InlineKeyboardButton(
-            text="⚜️CHANNEL⚜️", url="https://t.me/KKK_kovila"),
+            text="⚜️കാന്താരി⚜️", url="https://t.me/kanni_manga"),
     ],
     [  
         InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/KKK_kovila"),
@@ -108,7 +108,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-۞ᏝᎧᎧᏚᎥᏋ۞ WITH NEW FEATURES
+《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》 WITH NEW FEATURES
 
 ꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF TIANA*꧂
 
@@ -118,7 +118,7 @@ HELP_STRINGS = """
 """
 
 
-DONATE_STRING ="""CONTACT ME ON @PRINCE_3011"""
+DONATE_STRING ="""CONTACT ME ON @KKK_kovila"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -221,7 +221,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
-                PM_START_TEXT,
+                PM_START_TEXT,PM_START_IMG,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
