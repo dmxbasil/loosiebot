@@ -72,8 +72,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
-PM_START_IMG = "https://telegra.ph/file/9429862a0443988623bd2.jpg" 
 PM_START_TEXT = """Hello, My name is 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》
 
 Hey , I am a Group Manager,
@@ -85,7 +83,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ۞ᏝᎧᎧᏚᎥᏋ۞ to YOUR GROUP ➕️", url="t.me/stenZleMaria_bot?startgroup=true"),
+            text="➕️ ADD 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》 to YOUR GROUP ➕️", url="t.me/stenZleMaria_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -114,7 +112,7 @@ HELP_STRINGS = """
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @PRINCEBOTSUPPORT*
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @stenzle*
 """
 
 
@@ -221,7 +219,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
-                PM_START_TEXT,PM_START_IMG,
+                PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
