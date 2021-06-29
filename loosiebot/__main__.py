@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is ۞ᏝᎧᎧᏚᎥᏋ۞
+PM_START_TEXT = """Hello, My name is ۞STENZLE_MARIA۞
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
@@ -85,7 +85,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ۞ᏝᎧᎧᏚᎥᏋ۞ to YOUR GROUP ➕️", url="t.me/@stenZleMaria_bot?startgroup=true"),
+            text="➕️ ADD ۞STENZLE_MARIA۞ to YOUR GROUP ➕️", url="t.me/@stenZleMaria_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -107,18 +107,18 @@ buttons = [
     
 ]
 
-HELP_STRINGS = """
+HELP_STRINGS ="""
 ۞STENZLE_MARIA۞ WITH NEW FEATURES
 
 ꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF STENZLE_MARIA*꧂
 
-𖣘 *All commands can either be used with* `/` *or* `!`.
+𖣘 *All commands can either be used with* `/` *or* `!`
 
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @PRINCEBOTSUPPORT*
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @stenzle*
 """
 
 
-DONATE_STRING ="""CONTACT ME ON @PRINCE_3011"""
+DONATE_STRING ="""CONTACT ME ON @kanni_mangabot"""
 
 IMPORTED = {}
 MIGRATEABLE = []
