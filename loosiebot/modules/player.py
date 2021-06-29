@@ -1,7 +1,6 @@
 
 import os
 from youtube_dl import YoutubeDL
-from config import Config
 from pyrogram import Client, filters, emoji
 from pyrogram.methods.messages.download_media import DEFAULT_DOWNLOAD_DIR
 from pyrogram.types import Message
