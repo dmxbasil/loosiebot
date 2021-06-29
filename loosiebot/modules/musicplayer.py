@@ -1,11 +1,11 @@
 
 __mod_name__ = "VC PLAYER"
 __help__ = """
-          》** Loosie_VCPLAYER ** 《
+          》** STENZLE_MARIA_VCPLAYER ** 《
             
- TIANA_VCPLAYERplays music in your group's voice chat
+ STENZLE_VCPLAYER plays music in your group's voice chat
  
- Assistant name >> ꧁ @TIANA_VCMUSIC_PLUGIN ꧂
+ Assistant name >> ꧁ @jagannadhuserbot ꧂
  
 ⚙️Setting up 
 1) Make bot admin
@@ -31,7 +31,7 @@ __help__ = """
 
 =>> More tools 📲
   /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-  /userbotjoin: Invite @TIANA_VCMUSIC_PLUGIN Userbot to your chat
+  /userbotjoin: Invite @jagannadhuserbot Userbot to your chat
 
 *Player cmd and all other cmds except /play, /current  and /playlist are only for admins with manage group
 
