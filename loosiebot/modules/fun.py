@@ -285,7 +285,7 @@ __help__ = """
  • `/tts <text> `*:* text to voice
  • `/8ball`*:* predicts using 8ball method
 """
-CINE_HANDLER = DisableAbleCommandHandler(*cine*,cine)
+CINE_HANDLER = DisableAbleCommandHandler("cine",cine)
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
 RUNS_HANDLER = DisableAbleCommandHandler("runs", runs)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap)
