@@ -11,7 +11,7 @@ __help__ = """
 1) Make bot admin
 2) Start a voice chat
 3) Try `/play [song name]` for the first time by an admin
-*) If userbot joined enjoy music, If not add @TIANA_VCMUSIC_PLUGIN to your group and retry
+*) If userbot joined enjoy music, If not add @jagannadhuserbot to your group and retry
   Commands
 
 =>> Song Playing 🎶
