@@ -1,6 +1,4 @@
-# Pyrogram Module For Download Song From YouTube 
-# 🍀 © @DaisyXNews
-# ⚠️ Do not edit this lines
+
 import os
 import requests
 import aiohttp
@@ -17,7 +15,7 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 
-@pbot.on_message(filters.command(['audio']))
+@pbot.on_message(filters.command(['sg']))
 def song(client, message):
 
     user_id = message.from_user.id 
