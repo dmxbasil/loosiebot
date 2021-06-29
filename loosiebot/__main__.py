@@ -85,7 +85,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ۞ᏝᎧᎧᏚᎥᏋ۞ to YOUR GROUP ➕️", url="t.me/loos?startgroup=true"),
+            text="➕️ ADD ۞ᏝᎧᎧᏚᎥᏋ۞ to YOUR GROUP ➕️", url="t.me/@stenZleMaria_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -93,13 +93,13 @@ buttons = [
     ],
    [
         InlineKeyboardButton(
-            text="🎵 MUSIC GROUP 🎧", url="http://t.me/KKK_kovila")
+            text="🎵 MUSIC GROUP 🎧", url="http://t.me/AKM_LIFE_OF_RYTHEMofficial")
    ],
    [
         InlineKeyboardButton(
-            text="✨MY BF✨", url="http://t.me/stenZleMaria_bot"),
+            text="✨MY BF✨", url="http://t.me/kanni_mangabot"),
         InlineKeyboardButton(
-            text="⚜️CHANNEL⚜️", url="https://t.me/KKK_kovila"),
+            text="⚜️CHANNEL⚜️", url="https://t.me/kanni_manga"),
     ],
     [  
         InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/KKK_kovila"),
@@ -108,9 +108,9 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-۞ᏝᎧᎧᏚᎥᏋ۞ WITH NEW FEATURES
+۞STENZLE_MARIA۞ WITH NEW FEATURES
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF TIANA*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF STENZLE_MARIA*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
@@ -363,7 +363,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm ۞ᏝᎧᎧᏚᎥᏋ۞, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm ۞STENZLE_MARIA۞, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
