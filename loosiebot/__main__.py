@@ -91,11 +91,9 @@ buttons = [
     ],
    [
         InlineKeyboardButton(
-            text="🎵 MUSIC GROUP 🎧", url="http://t.me/KK_LIFE_OF_RYTHEMofficial")
-   ],
-   [
-        InlineKeyboardButton(
             text="✨MY BESTIE✨", url="http://t.me/NAZRIYANAZEEMBOT"),
+        InlinekeyboardButton(
+            text="🔯⚡SΔ✟ΛΝ⚡🔯",url="https://t.me/satan_Slayerbot),
         InlineKeyboardButton(
             text="⚜️കാന്താരി⚜️", url="https://t.me/kanni_manga"),
     ],
@@ -108,7 +106,7 @@ buttons = [
 HELP_STRINGS = """
 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》 WITH NEW FEATURES
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF TIANA*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF @stenzle*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
@@ -370,7 +368,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://github.com/sakhaavvaavaj93/loosiebot).
-                 If you have any question about masha, let us know at @princebotsupport.""",
+                 If you have any question about masha, let us know at @stenzle.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
