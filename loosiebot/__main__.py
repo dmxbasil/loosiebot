@@ -93,7 +93,7 @@ buttons = [
         InlineKeyboardButton(
             text="✨MY BESTIE✨", url="http://t.me/NAZRIYANAZEEMBOT"),
         InlinekeyboardButton(
-            text="🔯⚡SΔ✟ΛΝ⚡🔯",url="https://t.me/satan_Slayerbot),
+            text="🔯⚡SΔ✟ΛΝ⚡🔯",url="https://t.me/satan_Slayerbot"),
         InlineKeyboardButton(
             text="⚜️കാന്താരി⚜️", url="https://t.me/kanni_manga"),
     ],
