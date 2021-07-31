@@ -5,7 +5,6 @@ from sys import argv
 from typing import Optional
 
 from loosiebot import (
-    ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
