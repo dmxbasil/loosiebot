@@ -82,7 +82,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》 to YOUR GROUP ➕️", url="t.me/stenZleMaria_bot?startgroup=true"),
+            text="➕️ ADD 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ󠀺》 to YOUR GROUP ➕️", url="t.me/Stenzle_MariaGbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
